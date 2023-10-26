@@ -58,8 +58,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/d-k-bo/televido/releases/download/v0.1.0/televido-0.1.0.tar.xz",
-          "sha256": "025df8987dd420e2d5d923fe13426bf9dfa7a90c67ae08e8838c5da415bca4a1"
+          "url": "https://github.com/d-k-bo/televido/releases/download/v0.1.1.1/televido-0.1.1.tar.xz",
+          "sha256": "7e6416c0635846bde274b37fc5bc631bb8ad089e56af4f3a066a84541d7550d9"
         }
       ]
     }
