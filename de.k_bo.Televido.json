@@ -16,7 +16,8 @@
     "--socket=wayland",
     "--talk-name=org.gnome.Totem",
     "--talk-name=io.github.celluloid_player.Celluloid",
-    "--talk-name=com.github.rafostar.Clapper"
+    "--talk-name=com.github.rafostar.Clapper",
+    "--talk-name=io.gitlab.daikhan.stable"
   ],
   "build-options": {
     "append-path": "/usr/lib/sdk/rust-stable/bin:/usr/lib/sdk/llvm16/bin",
@@ -58,8 +59,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/d-k-bo/televido/releases/download/v0.1.1.1/televido-0.1.1.tar.xz",
-          "sha256": "7e6416c0635846bde274b37fc5bc631bb8ad089e56af4f3a066a84541d7550d9"
+          "url": "https://github.com/d-k-bo/televido/releases/download/v0.1.2/televido-0.1.2.tar.xz",
+          "sha256": "ee273807175807070bc445464bbb1b66c6889f97c902566eaae66e9cbc0c24df"
         }
       ]
     }
