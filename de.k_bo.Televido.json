@@ -1,11 +1,10 @@
 {
   "id": "de.k_bo.Televido",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "46",
+  "runtime-version": "47",
   "sdk": "org.gnome.Sdk",
   "sdk-extensions": [
-    "org.freedesktop.Sdk.Extension.rust-stable",
-    "org.freedesktop.Sdk.Extension.llvm16"
+    "org.freedesktop.Sdk.Extension.rust-stable"
   ],
   "command": "televido",
   "finish-args": [
@@ -21,14 +20,8 @@
     "--talk-name=org.nickvision.tubeconverter"
   ],
   "build-options": {
-    "append-path": "/usr/lib/sdk/rust-stable/bin:/usr/lib/sdk/llvm16/bin",
-    "env": {
-      "CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_LINKER": "clang",
-      "CARGO_TARGET_AARCH64_UNKNOWN_LINUX_GNU_LINKER": "clang",
-      "CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_RUSTFLAGS": "-C link-arg=-fuse-ld=/usr/lib/sdk/rust-stable/bin/mold",
-      "CARGO_TARGET_AARCH64_UNKNOWN_LINUX_GNU_RUSTFLAGS": "-C link-arg=-fuse-ld=/usr/lib/sdk/rust-stable/bin/mold"
-    }
-  },
+    "append-path": "/usr/lib/sdk/rust-stable/bin"
+    },
   "cleanup": [
     "/include",
     "/lib/pkgconfig",
@@ -49,7 +42,8 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-          "tag": "v0.12.0"
+          "tag": "v0.12.0",
+          "commit": "66b43c36cf1017c878762007373964a096b3d2a5"
         }
       ]
     },
