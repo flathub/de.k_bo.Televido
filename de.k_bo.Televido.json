@@ -48,7 +48,8 @@
       "config-opts": [
         "-Dclapper=enabled",
         "-Dclapper-gtk=enabled",
-        "-Dclapper-app=disabled"
+        "-Dclapper-app=disabled",
+        "-Denhancers-loader=disabled"
       ],
       "cleanup": [
         "/include",
