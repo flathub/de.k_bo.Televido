@@ -1,7 +1,7 @@
 {
   "id": "de.k_bo.Televido",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "48",
+  "runtime-version": "50",
   "sdk": "org.gnome.Sdk",
   "sdk-extensions": [
     "org.freedesktop.Sdk.Extension.rust-stable",
@@ -59,7 +59,7 @@
         {
           "type": "git",
           "url": "https://github.com/Rafostar/clapper.git",
-          "tag": "0.8.0"
+          "tag": "0.10.0"
         }
       ]
     },
@@ -70,8 +70,8 @@
       "sources": [
         {
           "type": "git",
-          "url": "https://github.com/GNOME/blueprint-compiler",
-          "tag": "v0.18.0"
+          "url": "https://github.com/GNOME/blueprint-compiler.git",
+          "tag": "v0.20.4"
         }
       ]
     },
